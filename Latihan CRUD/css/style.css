@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: #eaeaea;
+    color: #54595f;
+    flex: 1;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wrapper {
+    padding: 0 40px;
+}
+
+.tabel-mahasiswa {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px -1px rgb(136 136 136 / 75%);
+}
+
+.table-title {
+    background-color: #FFEB3B;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(136 136 136 / 75%);
+    font-size: 14px;
+}
+
+.btn-tambah {
+    background-color: #4bea33;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.btn-edit {
+    background-color: #2196f3;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.btn-hapus {
+    background-color: #d00e00;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.btn-back {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    margin: 0 20px;
+}
+
+.btn:hover {
+    background-color: #525252;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block-center {
+    text-align: -webkit-center;
+}
+
+.wrapper.edit {
+    margin: 40px;
+    padding: 20px 20px !important;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px -1px rgb(136 136 136 / 75%);
+    border-radius: 20px;
+    width: 550px;
+}
+
+.tabel-edit {
+    border-collapse: collapse;
+    margin: 40px 20px;
+}
+
+.label {
+    width: 30%;
+    font-size: 18px;
+}
+
+.input {
+    padding: 4px 2px;
+    width: 300px;
+    margin: 5px 0;
+}
+
+.right {
+    float: right;
+}
